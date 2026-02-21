@@ -1,28 +1,28 @@
 # xliff-sync-cli
 
 CLI tool to synchronize XLIFF translation units from a source file to target files.
-Functionality Extracted from Rob van Bekkums VSCode extension "XLIFF Sync" (https://marketplace.visualstudio.com/items?itemName=rvanbekkum.xliff-sync).
 
+This project is inspired by and extracted from Rob van Bekkum's VS Code extension "XLIFF Sync":
+https://marketplace.visualstudio.com/items?itemName=rvanbekkum.xliff-sync
+
+Repository:
+https://github.com/pareix/xliff-sync-cli
 
 ## Install
 
-Global install:
+Global install from GitHub:
 
 ```bash
-npm install -g xliff-sync-cli
+npm install -g github:pareix/xliff-sync-cli
 ```
 
-Project dependency (recommended for CI/build pipelines):
+Project dependency (recommended for CI/build pipelines, pinned to a tag):
 
 ```bash
-npm install --save-dev xliff-sync-cli
+npm install --save-dev github:pareix/xliff-sync-cli#v0.1.0
 ```
 
-Or run without installing:
-
-```bash
-npx xliff-sync-cli --source path/to/source.g.xlf --target path/to/de-DE.xlf
-```
+You can also pin to a commit SHA for full reproducibility.
 
 ## Usage
 
@@ -39,9 +39,9 @@ xliff-sync-units \
   --target ./Translations/MyApp.fr-FR.xlf
 ```
 
-### Usage in a project (local dependency)
+### Usage in a project
 
-If installed as a dev dependency, call it through your package scripts:
+If installed as a dev dependency, add a package script:
 
 ```json
 {
