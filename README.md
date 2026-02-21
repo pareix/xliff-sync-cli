@@ -3,8 +3,11 @@
 CLI tool to synchronize XLIFF translation units from a source file to target files.
 
 This projects functionality is extracted from Rob van Bekkum's VS Code extension "XLIFF Sync":
+
 https://marketplace.visualstudio.com/items?itemName=rvanbekkum.xliff-sync
+
 Main credit goes to him. 
+
 This Projects offers a leightweight/barebones alternative to the Extension keeping only the synchronizaiton functionality.
 
 
@@ -60,7 +63,7 @@ npm run sync:translations
 
 ## Behavior
 
-- Uses extension-default synchronization rules only (no runtime overrides yet).
+- Uses extension-default synchronization rules only.
 - Reads source once, then synchronizes each target file.
 - Rewrites each target file with regenerated XML output.
 - Prints one status line per target (`OK` or `FAIL`).
