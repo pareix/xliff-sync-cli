@@ -2,9 +2,10 @@
 
 CLI tool to synchronize XLIFF translation units from a source file to target files.
 
-This project is inspired by and extracted from Rob van Bekkum's VS Code extension "XLIFF Sync":
+This projects functionality is extracted from Rob van Bekkum's VS Code extension "XLIFF Sync":
 https://marketplace.visualstudio.com/items?itemName=rvanbekkum.xliff-sync
-
+Main credit goes to him. 
+This Projects offers a leightweight/barebones alternative to the Extension keeping only the synchronizaiton functionality.
 
 
 ## Install
