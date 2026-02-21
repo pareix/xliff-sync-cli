@@ -5,8 +5,7 @@ CLI tool to synchronize XLIFF translation units from a source file to target fil
 This project is inspired by and extracted from Rob van Bekkum's VS Code extension "XLIFF Sync":
 https://marketplace.visualstudio.com/items?itemName=rvanbekkum.xliff-sync
 
-Repository:
-https://github.com/pareix/xliff-sync-cli
+
 
 ## Install
 
@@ -16,13 +15,14 @@ Global install from GitHub:
 npm install -g github:pareix/xliff-sync-cli
 ```
 
-Project dependency (recommended for CI/build pipelines, pinned to a tag):
+Project dependency (added to package.json):
 
-```bash
-npm install --save-dev github:pareix/xliff-sync-cli#v0.1.0
+```json
+"devDependencies": {
+  "xliff-sync-cli": "github:pareix/xliff-sync-cli#main"
+}
 ```
 
-You can also pin to a commit SHA for full reproducibility.
 
 ## Usage
 
