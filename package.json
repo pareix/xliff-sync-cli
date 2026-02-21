@@ -1,0 +1,25 @@
+{
+  "name": "xliff-sync-cli",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "CLI tool to synchronize XLIFF translation units from a source file to target files",
+  "bin": {
+    "xliff-sync-units": "./src/cli.ts"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync:units": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "sax": "^1.2.4",
+    "tsx": "^4.17.0",
+    "xmlbuilder": "^9.0.7"
+  }
+}
