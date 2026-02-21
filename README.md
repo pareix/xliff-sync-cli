@@ -8,7 +8,7 @@ https://marketplace.visualstudio.com/items?itemName=rvanbekkum.xliff-sync
 
 Main credit goes to him. 
 
-This Projects offers a leightweight/barebones alternative to the Extension keeping only the synchronizaiton functionality.
+This Projects offers a leightweight/barebones alternative to the Extension keeping only the synchronization functionality.
 
 
 ## Install
